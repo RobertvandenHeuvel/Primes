@@ -8,7 +8,7 @@ public class Application {
 //		CheckARange car = new CheckARange();
 //		car.checkARange(2, 300_000);
 		Eratosthenes e = new Eratosthenes();
-		e.findPrimes(1_000_000);
+		e.findPrimes(31);
 		LocalTime finish = LocalTime.now();
 		double secondsBetween = (double) ChronoUnit.MILLIS.between(start, finish) /1000;
 		System.out.println("time taken: " + secondsBetween + "s");

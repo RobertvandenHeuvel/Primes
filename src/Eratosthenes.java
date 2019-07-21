@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Eratosthenes {
 	void findPrimes(int max) {
+		max++;
 		int range = max - 2;
 		boolean [] booleanArray = fillBooleanArray(range);
 		booleanArray = sieve(max, booleanArray);
